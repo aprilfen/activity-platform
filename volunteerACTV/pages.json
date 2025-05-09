@@ -1,0 +1,101 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "志愿活动平台"
+			}
+		},
+		{
+			"path": "pages/activity/activity",
+			"style": {
+				"navigationBarTitleText": "活动"
+			}
+		},
+		{
+			"path": "pages/checkin/checkin",
+			"style": {
+				"navigationBarTitleText": "签到"
+			}
+		},
+
+		{
+			"path": "pages/style/style",
+			"style": {
+				"navigationBarTitleText": "风采"
+			}
+		},
+		{
+			"path": "pages/style/detail",
+			"style": {
+				"navigationBarTitleText": "采风详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "components/ActivityList",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/activity/detail",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#666666",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/shouye.png",
+				"selectedIconPath": "static/tabbar/shouye1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/activity/activity",
+				"iconPath": "static/tabbar/huodongxiangqu.png",
+				"selectedIconPath": "static/tabbar/huodongxiangqu1.png",
+				"text": "活动"
+			},
+			{
+				"pagePath": "pages/checkin/checkin",
+				"iconPath": "static/tabbar/dingwei.png",
+				"selectedIconPath": "static/tabbar/dingwei1.png",
+				"text": "签到"
+			},
+			{
+				"pagePath": "pages/style/style",
+				"iconPath": "static/tabbar/banjifengcai.png",
+				"selectedIconPath": "static/tabbar/banjifengcai1.png",
+				"text": "风采"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/tabbar/wode.png",
+				"selectedIconPath": "static/tabbar/wode1.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+
+	"uniIdRouter": {}
+}

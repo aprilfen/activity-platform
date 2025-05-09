@@ -1,0 +1,17 @@
+{
+    "id": "t-jwt",
+    "displayName": "JWT SDK",
+    "version": "1.0.0",
+    "description": "对jwt格式的token进行解析",
+    "keywords": [
+        "jwt",
+        "js",
+        "解析"
+    ],
+    "dcloudext": {
+        "category": [
+            "JS SDK",
+            "通用 SDK"
+        ]
+    }
+}
