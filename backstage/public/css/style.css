@@ -1,0 +1,106 @@
+/* public/css/style.css */
+/* 新增强化样式 */
+
+/* 基础布局 */
+body {
+  background-color: #f0f2f5;
+  min-height: 100vh;
+}
+
+/* 导航栏样式 */
+.navbar {
+  background: linear-gradient(135deg, #2c3e50, #3498db);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: rgba(255,255,255,0.8) !important;
+  transition: all 0.3s;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+  transform: translateY(-2px);
+}
+
+/* 表格增强样式 */
+.table-container {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  overflow: hidden;
+}
+
+.table {
+  margin-bottom: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table thead th {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+  color: #2c3e50;
+  font-weight: 600;
+  padding: 16px;
+}
+
+.table tbody td {
+  vertical-align: middle;
+  padding: 12px 16px;
+  border-top: 1px solid #f0f0f0;
+}
+
+/* 操作按钮样式 */
+.btn-operation {
+  padding: 4px 12px;
+  margin: 0 4px;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.btn-edit {
+  background-color: #3498db;
+  color: white;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+  color: white;
+}
+
+/* 提示消息样式 */
+.alert-message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  min-width: 300px;
+  padding: 15px 25px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.3s ease;
+  z-index: 9999;
+}
+
+.alert-show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.alert-success {
+  background: #27ae60;
+  color: white;
+}
+
+.alert-error {
+  background: #e74c3c;
+  color: white;
+}

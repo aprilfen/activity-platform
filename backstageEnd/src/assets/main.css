@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.el-table__header, .el-table__body, .el-table__footer{
+  width:100% !important;
+    table-layout: fixed !important;
+}  
